@@ -20,7 +20,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image_a1]: ./writeup/before_draw_lines_changed/solidYellowLeft.jpg
+[image_a1]: ./writeup/before_draw_lines_changed/original_image.png
 
 [image_a2]: ./writeup/before_draw_lines_changed/gray.png "Grayscale"
 
@@ -34,21 +34,19 @@ The goals / steps of this project are the following:
 
 [image_a7]: ./writeup/before_draw_lines_changed/final_image.png "Grayscale"
 
-
-
 ---
 
 ### 1. Pipeline
 
-My pipeline consisted of 5 steps.
+My pipeline consisted of 5 steps. Take the image, "./test_images/solidYellowLeft.jpg", shown as below as an example.
+
+![alt text][image_a1]
 
 1) First, I converted the images to grayscale.
 
     Here we read a .png and convert to 0,255 bytescale
 
-    ![alt text][image_a1 | width=960]
-
-    <img src=image_a1 width="48">
+    ![alt text][image_a2]
 
     Define a kernel size for Gaussian smoothing / blurring
 
