@@ -20,7 +20,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image_a1]: ./writeup/before_draw_lines_changed/original_image.png
+[image_a1]: ./writeup/before_draw_lines_changed/initial_image.png
 
 [image_a2]: ./writeup/before_draw_lines_changed/gray.png "Grayscale"
 
