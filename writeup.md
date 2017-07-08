@@ -165,12 +165,12 @@ My pipeline consisted of 5 steps. Take the image, "./test_images/solidYellowLeft
 
 ### 2. Potential shortcomings
 
-One potential shortcoming would be lane detection would fail when the lanes in the image are outside the area defined by the triangle.
+- One potential shortcoming would be lane detection would fail when the lanes in the image are outside the area defined by the triangle.
 
-Another shortcoming could be in my draw line function I sacrificed some images in which the line segments filtered into the left or list are none. As a result, in those images
+- Another shortcoming could be in my draw line function I sacrificed some images in which the line segments filtered into the left or list are none. As a result, in those images
 
 ### 3. Possible improvements
 
-A possible improvement would be to define more dynamic area of interest according to the lanes.
+- A possible improvement would be to define more dynamic area of interest according to the lanes.
 
-Another potential improvement could be to find a better strategy to divide the line segments into two lists.
+- Another potential improvement could be to find a better strategy to divide the line segments into two lists.
